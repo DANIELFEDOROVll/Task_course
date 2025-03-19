@@ -3,6 +3,6 @@ package com.example.data_home
 import retrofit2.http.GET
 
 interface CoursesApiService {
-    @GET("")
+    @GET()
     suspend fun getCourses(): CourseResponseDto
 }

@@ -3,8 +3,10 @@ package com.example.data_home
 import com.example.domain.CourseResponse
 import com.example.domain.HomeRepository
 
-class HomeRepositoryImpl: HomeRepository {
+class HomeRepositoryImpl(
+    private val api: CoursesApiService
+): HomeRepository {
     override suspend fun getCourses(): CourseResponse {
-        TODO("Not yet implemented")
+        return api.getCourses()
     }
 }

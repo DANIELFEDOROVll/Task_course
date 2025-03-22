@@ -7,7 +7,14 @@ class CourseDtoToDomainMapper {
     operator fun invoke(courseDto: CourseDto): Course{
         return with(courseDto){
             Course(
-
+                id = id,
+                title = title,
+                text = text,
+                price = price,
+                rate = rate,
+                startDate = startDate,
+                hasLike = hasLike,
+                publishDate = publishDate,
             )
         }
     }

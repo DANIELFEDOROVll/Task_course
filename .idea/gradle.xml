@@ -13,11 +13,12 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/core-ui" />
             <option value="$PROJECT_DIR$/data-home" />
-            <option value="$PROJECT_DIR$/data-onboarding" />
+            <option value="$PROJECT_DIR$/data-login" />
             <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/feature-favorites" />
             <option value="$PROJECT_DIR$/feature-home" />
             <option value="$PROJECT_DIR$/feature-login" />
-            <option value="$PROJECT_DIR$/feature-onboarding" />
+            <option value="$PROJECT_DIR$/feature-profile" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

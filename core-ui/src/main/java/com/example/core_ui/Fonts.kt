@@ -9,3 +9,7 @@ import androidx.compose.ui.text.googlefonts.GoogleFont
 val RobotoFontFamily = FontFamily(
     Font(R.font.roboto_regular),
 )
+
+val BoldRoboto = FontFamily(
+    Font(R.font.roboto_bold)
+)

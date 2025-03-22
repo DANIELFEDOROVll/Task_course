@@ -8,5 +8,5 @@ data class Course(
     val rate: String,
     val startDate: String,
     val hasLike: Boolean,
-    val publishDate: String
+    val publishDate: String,
 )

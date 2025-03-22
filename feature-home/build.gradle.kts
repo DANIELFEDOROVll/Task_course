@@ -38,8 +38,14 @@ android {
 
 dependencies {
     implementation(project(":core-ui"))
-    implementation(project(":data-home"))
+    implementation(project(":domain"))
 
+    //implementation(libs.koin.androidx.compose)
+
+    implementation(libs.koin.compose)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.koin.androidx.compose)
+    implementation(libs.koin.android)
     implementation(libs.coil.compose)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))

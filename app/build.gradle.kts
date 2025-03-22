@@ -40,22 +40,27 @@ android {
 }
 
 dependencies {
-    implementation(project(":feature-onboarding"))
     implementation(project(":feature-login"))
     implementation(project(":feature-home"))
 
     implementation(project(":data-home"))
+    implementation(project(":data-login"))
 
-    implementation(libs.kotlinx.serialization.json)
-    implementation(libs.retrofit)
-    implementation(libs.converter.gson)
-    implementation(libs.okhttp)
-    implementation(libs.logging.interceptor)
+    implementation(project(":domain"))
 
-    implementation (libs.koin.android)
-    implementation (libs.koin.androidx.viewmodel)
-    implementation(libs.koin.androidx.coroutines)
+    implementation(project(":core-ui"))
 
+    //implementation(libs.koin.androidx.compose)
+    implementation(libs.koin.compose)
+
+    //retrofit
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+    implementation (libs.androidx.appcompat.v170)
+
+    implementation(libs.koin.androidx.compose)
+    implementation(libs.koin.android)
+    implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

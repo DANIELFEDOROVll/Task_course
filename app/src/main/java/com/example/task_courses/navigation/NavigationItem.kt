@@ -15,13 +15,13 @@ sealed class NavigationItem(
 
 
     data object Favorites: NavigationItem(
-        route = "search_screen",
+        route = "favorites",
         iconResId = com.example.core_ui.R.drawable.bookmark,
         titleResId = R.string.favorites
     )
 
     data object Profile: NavigationItem(
-        route = "profile_screen",
+        route = "profile",
         iconResId = com.example.core_ui.R.drawable.person,
         titleResId = R.string.profile
     )

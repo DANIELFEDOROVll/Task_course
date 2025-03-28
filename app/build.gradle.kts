@@ -42,6 +42,8 @@ android {
 dependencies {
     implementation(project(":feature-login"))
     implementation(project(":feature-home"))
+    implementation(project(":feature-favorites"))
+    implementation(project(":feature-profile"))
 
     implementation(project(":data-home"))
     implementation(project(":data-login"))
